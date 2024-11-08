@@ -31,7 +31,7 @@
            int pos= s.begin()->first, money =s.begin()->second;
            v.push_back(pos);
            s.erase(s.begin());
-           ml.erase({money,pos});
+           ml.erase({money,-pos});
 
          }
          else
